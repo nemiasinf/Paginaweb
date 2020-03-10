@@ -53,10 +53,10 @@ siempre con un  análisis  a  detalle a lo largo de todo el proyecto.<br><br>
       <div class="row">
         <div class="col-md-6 col-sm-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="1.0s">
          
-          <img src="img/mision.PNG" id="misvis">
+          <img src="../img/mision.PNG" id="misvis">
         </div>
         <div class="col-md-6 col-sm-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="1.5s">
-         <img src="img/vision.PNG" id="misvis2">
+         <img src="../img/vision.PNG" id="misvis2">
         </div>
       </div>
       <div class="row">

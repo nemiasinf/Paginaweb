@@ -11,8 +11,8 @@
         <div class="col-md-9 ">
           <div class="col-md-5">
             <figure>
-              <a class="logo" href="index.php" title="INICIO">
-                <img class="lazy" src="img/logo.png" data-srcset="img/logo.svg" alt="logo">
+              <a class="logo" href="/" title="INICIO">
+                <img class="lazy" src="../img/logo.png" data-srcset="../img/logo.svg" alt="logo">
               </a>
             </figure>
 

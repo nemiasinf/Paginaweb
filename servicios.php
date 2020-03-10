@@ -47,7 +47,7 @@
       <div class="row" id="Electrificacion">
         <div class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="left">
-            <img id="serv"  src="img/elec.png">
+            <img id="serv"  src="../img/elec.png">
           </div>
         </div>
         <div class="col-md-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
@@ -90,7 +90,7 @@
         
        <div  class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
         
-            <img id="serv" src="img/hidro.png">
+            <img id="serv" src="../img/hidro.png">
         
         </div>
         <div  class="col-md-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
@@ -122,7 +122,7 @@
       <div class="row" id="Obra-Civil">
            <div class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="left">
-            <img id="serv"  src="img/obra.png">
+            <img id="serv"  src="../img/obra.png">
           </div>
         </div>
         <div class="col-md-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
@@ -155,7 +155,7 @@
         
       <div class="col-md-4  col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="right">
-            <img id="serv"  src="img/domo.png">
+            <img id="serv"  src="../img/domo.png">
           </div>
         </div>
         <div class="col-md-6 col-xs-6  wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
@@ -197,7 +197,7 @@ del edificio.</b>
       <div class="row" id="Diseño-de-Proyectos">
       <div class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="left">
-            <img id="serv"  src="img/proyec.png">
+            <img id="serv"  src="../img/proyec.png">
           </div>
         </div>
         <div class="col-md-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
@@ -230,7 +230,7 @@ del edificio.</b>
       
         <div class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="right">
-           <img id="serv"  src="img/tele.png">
+           <img id="serv"  src="../img/tele.png">
           </div>
           
         </div>
@@ -278,14 +278,14 @@ del edificio.</b>
       <div class="row" id="Electrificacion">
         <div class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="left">
-            <img id="serv"  src="img/laptop.png">
+            <img id="serv"  src="../img/laptop.png">
           </div>
         </div>
         <div class="col-md-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <h2>Ofrecemos seguridad</h2>
           <p>
             <br><br>
-            <img id="vineta" src="img/canda.PNG"> Diseño de proyectos de seguridad enfocado especialmente a sus necesidades.<br><br>
+            <img id="vineta" src="../img/canda.PNG"> Diseño de proyectos de seguridad enfocado especialmente a sus necesidades.<br><br>
             
                
 
@@ -303,15 +303,15 @@ del edificio.</b>
    
           <p>
             <br><br>
-                <img id="vineta" src="img/canda.PNG">    Instalación de cercas y cercas de seguridad.<br><br><br><br>
-                <img id="vineta" src="img/canda.PNG">     Instalación de cámaras de seguridad y videovigilancia.<br><br><br><br>
-                <img id="vineta" src="img/canda.PNG">     Estudios de procesos de seguridad en tu operación.<br><br>
+                <img id="vineta" src="../img/canda.PNG">    Instalación de cercas y cercas de seguridad.<br><br><br><br>
+                <img id="vineta" src="../img/canda.PNG">     Instalación de cámaras de seguridad y videovigilancia.<br><br><br><br>
+                <img id="vineta" src="../img/canda.PNG">     Estudios de procesos de seguridad en tu operación.<br><br>
 
           </p>
         </div>
          <div class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="left">
-            <img id="iphone"  src="img/iphone.png">
+            <img id="iphone"  src="../img/iphone.png">
           </div>
         </div>
       

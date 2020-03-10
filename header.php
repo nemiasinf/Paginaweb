@@ -97,8 +97,8 @@
   <link rel="stylesheet" href="style.css">
   -->
   <script data-ad-client="ca-pub-2221604231279754" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <link rel="stylesheet" href="/../css/w3.css">
-  <link rel="stylesheet" href="/../css/the_one.min.css">
+  <link rel="stylesheet" href="../css/w3.css">
+  <link rel="stylesheet" href="../css/the_one.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 
   <!-- FONTS AND STUFF -->
@@ -129,13 +129,13 @@
       <nav class="navbar" role="navigation">
         <div class="row">
           <figure>
-            <a class="logo" href="index.php" title="INICIO">
-              <img class="logo" src="img/logo.png" srcset="img/logo.svg" alt="logo">
+            <a class="logo" href="/" title="INICIO">
+              <img class="logo" src="../img/logo.png" srcset="../img/logo.svg" alt="logo">
             </a>
           </figure>
 
           <ul class="menu">
-            <a href="index.php" title="INICIO"><li>
+            <a href="/" title="INICIO"><li>
               <div>
                 <?php echo ($current_page == 'inicio' ? '<div>▼</div>': '') ?>
                 INICIO
@@ -147,33 +147,33 @@
 
 <!--Pestaña de blogs agregada por Agustín :)-->
 
-             <a href="blog.php" title="Blog"><li>
+             <a href="../blog.php" title="Blog"><li>
               <div>
                 <?php echo ($current_page == 'blog' ? '<div>▼</div>': '') ?>
                 BLOG
               </div>
             </li></a>
 
-            <a href="acerca_de.php" title="NOSOTROS"><li>
+            <a href="../acerca_de.php" title="NOSOTROS"><li>
               <div>
                 <?php echo ($current_page == 'nosotros' ? '<div>▼</div>': '') ?>
                 NOSOTROS
               </div>
             </li></a>
 
-            <a href="proyectos.php" title="PROYECTOS"><li>
+            <a href="../proyectos.php" title="PROYECTOS"><li>
               <div>
                 <?php echo ($current_page == 'proyectos' ? '<div>▼</div>': '') ?>
                 PROYECTOS
               </div>
             </li></a>
-            <a href="servicios.php" title="SERVICIOS"><li>
+            <a href="../servicios.php" title="SERVICIOS"><li>
               <div>
                 <?php echo ($current_page == 'servicios' ? '<div>▼</div>': '') ?>
                 SERVICIOS
               </div>
             </li></a>
-            <a href="contacto.php" title="CONTÁCTANOS"><li>
+            <a href="../contacto.php" title="CONTÁCTANOS"><li>
               <div>
                 <?php echo ($current_page == 'contactanos' ? '<div>▼</div>': '') ?>
                 CONTÁCTANOS
@@ -195,40 +195,40 @@
             <div class="circle type1"></div>
             <div class="circle type2"></div>
             <ul>
-              <a href="index.php" title="INICIO"><li>
+              <a href="/" title="INICIO"><li>
                 <div>
                   <?php echo ($current_page == 'inicio' ? '<div>▶</div>': '') ?>
                   INICIO
                 </div>
               </li></a>
 
-                <a href="blog.php" title="blog"><li>
+                <a href="../blog.php" title="blog"><li>
                 <div>
                   <?php echo ($current_page == 'blog' ? '<div>▶</div>': '') ?>
                  BLOG
                 </div>
               </li></a>
 
-              <a href="acerca_de.php" title="NOSOTROS"><li>
+              <a href="../acerca_de.php" title="NOSOTROS"><li>
                 <div>
                   <?php echo ($current_page == 'nosotros' ? '<div>▶</div>': '') ?>
                   NOSOTROS
                 </div>
               </li></a>
 
-              <a href="proyectos.php" title="PROYECTOS"><li>
+              <a href="../proyectos.php" title="PROYECTOS"><li>
                 <div>
                   <?php echo ($current_page == 'proyectos' ? '<div>▶</div>': '') ?>
                   PROYECTOS
                 </div>
               </li></a>
-             <a href="servicios.php" title="SERVICIOS"><li>
+             <a href="../servicios.php" title="SERVICIOS"><li>
                 <div>
                   <?php echo ($current_page == 'servicios' ? '<div>▶</div>': '') ?>
                   SERVICIOS
                 </div>
               </li></a>
-              <a href="contacto.php" title="CONTÁCTANOS"><li>
+              <a href="../contacto.php" title="CONTÁCTANOS"><li>
                 <div>
                   <?php echo ($current_page == 'contactanos' ? '<div>▶</div>': '') ?>
                   CONTÁCTANOS
