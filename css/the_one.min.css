@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /*!
  * Bootstrap v3.3.1 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
@@ -10940,34 +10940,96 @@ section {
     background-size:cover;
 }*/
 
+
+
+
+
+
+
+
+
+
+
+
 .slide {
-  
-    position: absolute; 
+position: absolute;
+ 
     z-index: -1;
-    height: 100%;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: auto;
-    transition: 1.3s
+    height: 150%;
+
+background-position: center;
+
+ background-size: 100% 100%;
+  background-repeat:no-repeat;
+ 
+  background-size: cover;
+
+
+ 
 }
 @media only screen and (min-width:0) and (max-width:900px) {
     .slide {
-     position: absolute;
-    height: 400px;
-    width: 150%;
-    background-size:cover;
+position: absolute;
+ width: 100%;
+ height: 300px;
     z-index: -1;
-     background-repeat: no-repeat;
- background-position: center ;
- 
-    transition: 1.3s
+  
+  
     }
 }
 
     .slide.show {
         opacity: 1
     }
+
+
+.slide1 {
+  
+position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 150%;
+ 
+ background-position: center;
+ background-size: 100% 100%;
+  background-repeat:no-repeat;
+
+  background-size: cover;
+
+  
+  
+}
+@media only screen and (min-width:0) and (max-width:900px) {
+    .slide1 {
+width: 100%;
+height: 300px;
+position: absolute;
+    z-index: -2;
+
+
+    }
+}
+
+    .slide1.show {
+        opacity: 1
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header {
      background: white;
@@ -11200,39 +11262,74 @@ header nav.navbar #menu_mobile {
 }
 
 section#home_slide {
-    height: 440px;
+  height: 550px;
+  width: 100%;
     z-index: 0;
+overflow: hidden;
     color: #fff
+
+}
+
+@media only screen and (min-width:0px) and (max-width:800px) {
+    section#home_slide{
+        height: 400px;
+  width: 100%;
+    z-index: 0;
+overflow: hidden;
+    color: #fff
+
+
+    }
 }
 
     section#home_slide .container {
         padding-top: 80px;
         position: relative;
+        height: 440px;
 
-        height: 100%
     }
+
+
+
 
 @media only screen and (min-width:720px) and (max-width:959px) {
     section#home_slide .container {
         padding-left: 60px;
         padding-right: 60px
+
     }
 }
 
+
+
+
+
+
 section#home_slide .container div. slider {
     padding-top: 40px;
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 440px;
     margin-left: -15px;
     margin-right: -15px;
-    z-index: 0
+
+    z-index: -2
+
 }
 
+
+@media only screen and (min-width:100px) {
+    section#home_slide .container div.slider {
+        margin-left: -15px;
+        margin-right: -15px
+        height: 300px;
+    }
+}
 @media only screen and (min-width:960px) {
     section#home_slide .container div.slider {
         margin-left: -60px;
         margin-right: -60px
+        height: 300px;
     }
 }
 
@@ -11242,6 +11339,22 @@ section#home_slide .container div. slider {
         margin-right: -60px
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 section#home_slide .container div.slider .slide1 {
     background-image: url(../img/slide1.jpg)
@@ -11318,6 +11431,7 @@ section#home_slide .container div.text {
 @media only screen and (min-width:0) and (max-width:719px) {
     section#home_slide .container div.text {
         display: none
+        height: 300px;
     }
 }
 
@@ -11333,7 +11447,7 @@ section#home_slide .container div.title {
     section#home_slide .container div.title {
         position: absolute;
         margin-top: 0;
-        bottom: 15px
+        bottom: 100px
     }
 }
 
@@ -11352,7 +11466,7 @@ section#home_slide .container div.title h2 {
 }
 
 section#home_sub {
-    padding-top: 90px;
+    
     padding-bottom: 10px
 }
 
@@ -11415,7 +11529,7 @@ section#home_sub .col-md-6.text {
 @media only screen and (min-width:0) and (max-width:719px) {
     section#home_sub .col-md-6.text  {
         height: auto;
-        padding-top: 40px;
+  
         padding-bottom: 40px
     }
 }
@@ -11426,14 +11540,14 @@ section#home_sub .col-md-6.text p {
 }
 
 section#home_services .container {
-    padding-top: 40px;
+   
     padding-bottom: 40px;
     background-image: linear-gradient(to bottom,#d3d3d3,#fff)
 }
 
 @media (min-width:992px) {
     section#home_services .container .col-md-6 h2 {
-        margin-top: 40px
+       
     }
 }
 

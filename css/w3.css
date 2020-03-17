@@ -867,20 +867,40 @@ a{
         opacity:1
     }
 }
+
+
+
+
  .w3-animate-right{
-    position:relative;
+  
     animation:animateright 2s
 }
 @keyframes animateright{
     from{
-        right:-300px;
+        right:-600px;
         opacity:0
     }
      to{
         right:0;
-        opacity:1
+        opacity: 1
     }
 }
+
+.w3-animate-out{
+   
+    animation: animateout 2s
+}
+@keyframes animateout{
+    from{
+       right: 0;
+        opacity:1
+    }
+     to{
+       left: : -300px;
+        opacity: 1
+    }
+}
+
 
 
 

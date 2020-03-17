@@ -8,13 +8,25 @@
 <?php include 'header.php';?>
 
 <main>
-  <section id="home_slide" class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s">
+  <section id="home_slide" class="wow fadeIn" data-wow-duration="4s" data-wow-delay="0.5s">
     <div class="container">
       <div class="slider">
         <img class="slide w3-animate-right" src="img/slide1.jpg">
+         <img class="slide1 w3-animate-out" src="img/slide3.jpg">
+       
+
         <img class="slide w3-animate-right" src="img/slide4.jpg">
+         <img class="slide1 w3-animate-out" src="img/slide1.jpg">
+     
+
         <img class="slide w3-animate-right" src="img/slide5.jpg">
+           <img class="slide1 w3-animate-out" src="img/slide4.jpg">
+      
+         
         <img class="slide w3-animate-right" src="img/slide3.jpg">
+          <img class="slide1 w3-animate-out" src="img/slide5.jpg">
+       
+
       </div>
      
 
@@ -33,7 +45,29 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 4000); // Change image every 2 seconds
 }
+
+var myIndex1 = 0;
+carousel1();
+
+function carousel1() {
+  var o;
+  var y = document.getElementsByClassName("slide1");
+  for (o = 0; o < y.length; o++) {
+    y[o].style.display = "none";  
+  }
+  myIndex1++;
+  if (myIndex1 > y.length) {myIndex1 = 1}    
+  y[myIndex1-1].style.display = "block";  
+  setTimeout(carousel1, 4000); // Change image every 2 seconds
+}
 </script>
+
+
+
+<script>
+
+</script>
+
 
 
 
@@ -111,7 +145,7 @@ function carousel() {
 
           <div class="element col-md-4 col-xs-4">
             <p >
-              +10 <br>
+              +100 <br>
               PROYECTOS<br>
               FINALIZADOS
             </p>
@@ -119,7 +153,7 @@ function carousel() {
 
           <div class="element col-md-4 col-xs-4">
             <p>
-              +1500<br> VIVIENDAS<br>
+              +36000<br> VIVIENDAS<br>
               ELECTRIFICADAS
             </p>
           </div>
