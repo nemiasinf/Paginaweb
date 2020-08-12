@@ -179,7 +179,25 @@
                 CONTÁCTANOS
               </div>
             </li></a>
+
+
+
+
+            <a href="../COVID.php" title="COVID19"><li>
+              <div id="covid">
+                <?php echo ($current_page == 'COVID' ? '<div>▼</div>': '') ?>
+                PREVENCIÓN <br>
+                COVID-19
+              </div>
+            </li></a>
+
+
+
+
           </ul>
+
+
+
 
           <div id="contact">
             <div>
@@ -187,7 +205,15 @@
               <!--a href="tel:9987043288" title="Llamar: 998 704 32 88">998 704 32 88</a--><br>
               <a href="mailto:contacto@ccitecnologia.com.mx" title="Email: contacto@ccitecnologia.com.mx">contacto@ccitecnologia.com.mx</a>
             </div>
+
+
           </div>
+
+
+
+
+
+
 
           
 

@@ -4518,7 +4518,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
         }
 
     .navbar-default .navbar-text {
-        color: #777
+        color: 
     }
 
     .navbar-default .navbar-nav > li > a {
@@ -11085,7 +11085,7 @@ header nav.navbar ul.menu a {
     header nav.navbar ul.menu a li {
         float: left;
         margin-right: 30px;
-        font-family: Salsa,cursive
+        font-family: Montserrat000
     }
 
         header nav.navbar ul.menu a li > div {
@@ -11103,6 +11103,21 @@ header nav.navbar ul.menu a {
     header nav.navbar ul.menu a:hover {
         color: #ff5302
     }
+
+
+    header nav.navbar div#covid {
+    color: white;
+    position: relative;
+    text-align: center;
+    float: right;
+    min-height:35px;
+    min-width: 95px;
+    border-radius: 0 0 5px 5px;
+    background: red
+}
+
+
+
 
 header nav.navbar div#contact {
     position: relative;

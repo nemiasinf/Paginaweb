@@ -8,7 +8,7 @@
 <?php include 'header.php';?>
 
 <main>
-  <section id="home_slide" class="wow fadeIn" data-wow-duration="4s" data-wow-delay="0.5s">
+  <section id="home_slide" class="wow fadeIn" data-wow-duration="4s" data-wow-delay="0.4s">
     <div class="container">
       <div class="slider">
         <img class="slide w3-animate-right" src="img/slide1.jpg">
@@ -162,6 +162,7 @@ function carousel1() {
         <div class="col-md-6 text wow fadeIn" data-wow-duration="2.5s"  data-wow-delay="0.6s">
           <p>
             Somos una empresa conformada por grupos de expertos dedicados a brindar soluciones a tus requerimientos en proyectos de construcción, mantenimiento, sistemas eléctricos, obra civil y  edificios inteligentes.
+            Desarrollamos proyectos teniendo un alcance a ciudades como: Cancún, Playa del Carmen, Tulum, Cozumel y Mérida, Yucatán.
           </p>
         </div>
       </div>
@@ -176,7 +177,7 @@ function carousel1() {
             NUESTROS <br>
             SERVICIOS
           </h2>
-          <p>Proveemos diversos servicios gracias a nuestro equipo multidisciplinario y a nuestros profesionales altamente capacitado con amplia experiencia en el campo.<br>
+          <p>En CCI Tecnologia proveemos diversos servicios gracias a nuestro equipo multidisciplinario y a nuestros profesionales altamente capacitado con amplia experiencia en el campo.<br>
           Nuestros servicios fueron creados y diseñados con base en las necesidades que nuestros clientes tuvieron y logramos satisfacer a lo largo de sus proyectos.</p>
           <a href="/servicios.php" title="Servicios">¡Conoce más acerca de nuestros servicios!</a>
         </div>
