@@ -48,7 +48,8 @@ abbr[title] {
 }
 
 b, strong {
-    font-weight: 700
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600
 }
 
 dfn {
@@ -1125,7 +1126,7 @@ button, input, select, textarea {
 }
 
 a {
-    color: #337ab7;
+    color: #fe782b;
     text-decoration: none
 }
 
@@ -1322,7 +1323,7 @@ p {
 }
 
 .text-primary {
-    color: #337ab7
+    color: #fe782b
 }
 
 a.text-primary:hover {
@@ -1363,7 +1364,7 @@ a.text-danger:hover {
 
 .bg-primary {
     color: #fff;
-    background-color: #337ab7
+    background-color: #fe782b
 }
 
 a.bg-primary:hover {
@@ -1516,6 +1517,8 @@ blockquote {
         }
 
 address {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     margin-bottom: 20px;
     font-style: normal;
     line-height: 1.42857143
@@ -3208,7 +3211,7 @@ select[multiple].form-group-lg .form-control, select[multiple].input-lg, textare
 
 .btn-primary {
     color: #fff;
-    background-color: #337ab7;
+    background-color: #fe782b;
     border-color: #2e6da4
 }
 
@@ -3223,12 +3226,12 @@ select[multiple].form-group-lg .form-control, select[multiple].input-lg, textare
     }
 
     .btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
-        background-color: #337ab7;
+        background-color: #fe782b;
         border-color: #2e6da4
     }
 
     .btn-primary .badge {
-        color: #337ab7;
+        color: #fe782b;
         background-color: #fff
     }
 
@@ -3338,7 +3341,7 @@ select[multiple].form-group-lg .form-control, select[multiple].input-lg, textare
 
 .btn-link {
     font-weight: 400;
-    color: #337ab7;
+    color: #fe782b;
     border-radius: 0
 }
 
@@ -3514,7 +3517,7 @@ tbody.collapse.in {
     .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
         color: #fff;
         text-decoration: none;
-        background-color: #337ab7;
+        background-color: #fe782b;
         outline: 0
     }
 
@@ -3946,7 +3949,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
     .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
         background-color: #eee;
-        border-color: #337ab7
+        border-color: #fe782b
     }
 
     .nav .nav-divider {
@@ -4052,7 +4055,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
     .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
         color: #fff;
-        background-color: #337ab7
+        background-color: #fe782b
     }
 
 .nav-stacked > li {
@@ -4748,7 +4751,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
             padding: 6px 12px;
             margin-left: -1px;
             line-height: 1.42857143;
-            color: #337ab7;
+            color: #fe782b;
             text-decoration: none;
             background-color: #fff;
             border: 1px solid #ddd
@@ -4775,8 +4778,8 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
         z-index: 2;
         color: #fff;
         cursor: default;
-        background-color: #337ab7;
-        border-color: #337ab7
+        background-color: #fe782b;
+        border-color: #fe782b
     }
 
     .pagination > .disabled > a, .pagination > .disabled > a:focus, .pagination > .disabled > a:hover, .pagination > .disabled > span, .pagination > .disabled > span:focus, .pagination > .disabled > span:hover {
@@ -4891,7 +4894,7 @@ a.label:focus, a.label:hover {
     }
 
 .label-primary {
-    background-color: #337ab7
+    background-color: #fe782b
 }
 
     .label-primary[href]:focus, .label-primary[href]:hover {
@@ -4966,7 +4969,7 @@ a.badge:focus, a.badge:hover {
 }
 
 .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-    color: #337ab7;
+    color: #fe782b;
     background-color: #fff
 }
 
@@ -5045,7 +5048,7 @@ a.badge:focus, a.badge:hover {
     }
 
 a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
-    border-color: #337ab7
+    border-color: #fe782b
 }
 
 .thumbnail .caption {
@@ -5192,7 +5195,7 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
     line-height: 20px;
     color: #fff;
     text-align: center;
-    background-color: #337ab7;
+    background-color: #fe782b;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
     box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
     -webkit-transition: width .6s ease;
@@ -5349,8 +5352,8 @@ a.list-group-item {
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     z-index: 2;
     color: #fff;
-    background-color: #337ab7;
-    border-color: #337ab7
+    background-color: #fe782b;
+    border-color: #fe782b
 }
 
     .list-group-item.active .list-group-item-heading, .list-group-item.active .list-group-item-heading > .small, .list-group-item.active .list-group-item-heading > small, .list-group-item.active:focus .list-group-item-heading, .list-group-item.active:focus .list-group-item-heading > .small, .list-group-item.active:focus .list-group-item-heading > small, .list-group-item.active:hover .list-group-item-heading, .list-group-item.active:hover .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading > small {
@@ -5670,26 +5673,26 @@ a.list-group-item-danger {
     }
 
 .panel-primary {
-    border-color: #337ab7
+    border-color: #fe782b
 }
 
     .panel-primary > .panel-heading {
         color: #fff;
-        background-color: #337ab7;
-        border-color: #337ab7
+        background-color: #fe782b;
+        border-color: #fe782b
     }
 
         .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-            border-top-color: #337ab7
+            border-top-color: #fe782b
         }
 
         .panel-primary > .panel-heading .badge {
-            color: #337ab7;
+            color: #fe782b;
             background-color: #fff
         }
 
     .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-        border-bottom-color: #337ab7
+        border-bottom-color: #fe782b
     }
 
 .panel-success {
@@ -6833,10 +6836,10 @@ button.close {
     }
 
 .btn-primary {
-    background-image: -webkit-linear-gradient(top,#337ab7 0,#265a88 100%);
-    background-image: -o-linear-gradient(top,#337ab7 0,#265a88 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#337ab7),to(#265a88));
-    background-image: linear-gradient(to bottom,#337ab7 0,#265a88 100%);
+    background-image: -webkit-linear-gradient(top,#fe782b 0,#265a88 100%);
+    background-image: -o-linear-gradient(top,#fe782b 0,#265a88 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fe782b),to(#265a88));
+    background-image: linear-gradient(to bottom,#fe782b 0,#265a88 100%);
     background-repeat: repeat-x;
     border-color: #245580
 }
@@ -6968,10 +6971,10 @@ button.close {
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
     background-color: #2e6da4;
-    background-image: -webkit-linear-gradient(top,#337ab7 0,#2e6da4 100%);
-    background-image: -o-linear-gradient(top,#337ab7 0,#2e6da4 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#337ab7),to(#2e6da4));
-    background-image: linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);
+    background-image: -webkit-linear-gradient(top,#fe782b 0,#2e6da4 100%);
+    background-image: -o-linear-gradient(top,#fe782b 0,#2e6da4 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fe782b),to(#2e6da4));
+    background-image: linear-gradient(to bottom,#fe782b 0,#2e6da4 100%);
     background-repeat: repeat-x
 }
 
@@ -7029,10 +7032,10 @@ button.close {
 @media (max-width:767px) {
     .navbar .navbar-nav .open .dropdown-menu > .active > a, .navbar .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar .navbar-nav .open .dropdown-menu > .active > a:hover {
         color: #fff;
-        background-image: -webkit-linear-gradient(top,#337ab7 0,#2e6da4 100%);
-        background-image: -o-linear-gradient(top,#337ab7 0,#2e6da4 100%);
-        background-image: -webkit-gradient(linear,left top,left bottom,from(#337ab7),to(#2e6da4));
-        background-image: linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);
+        background-image: -webkit-linear-gradient(top,#fe782b 0,#2e6da4 100%);
+        background-image: -o-linear-gradient(top,#fe782b 0,#2e6da4 100%);
+        background-image: -webkit-gradient(linear,left top,left bottom,from(#fe782b),to(#2e6da4));
+        background-image: linear-gradient(to bottom,#fe782b 0,#2e6da4 100%);
         background-repeat: repeat-x
     }
 }
@@ -7088,10 +7091,10 @@ button.close {
 }
 
 .progress-bar {
-    background-image: -webkit-linear-gradient(top,#337ab7 0,#286090 100%);
-    background-image: -o-linear-gradient(top,#337ab7 0,#286090 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#337ab7),to(#286090));
-    background-image: linear-gradient(to bottom,#337ab7 0,#286090 100%);
+    background-image: -webkit-linear-gradient(top,#fe782b 0,#286090 100%);
+    background-image: -o-linear-gradient(top,#fe782b 0,#286090 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fe782b),to(#286090));
+    background-image: linear-gradient(to bottom,#fe782b 0,#286090 100%);
     background-repeat: repeat-x
 }
 
@@ -7141,10 +7144,10 @@ button.close {
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     text-shadow: 0 -1px 0 #286090;
-    background-image: -webkit-linear-gradient(top,#337ab7 0,#2b669a 100%);
-    background-image: -o-linear-gradient(top,#337ab7 0,#2b669a 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#337ab7),to(#2b669a));
-    background-image: linear-gradient(to bottom,#337ab7 0,#2b669a 100%);
+    background-image: -webkit-linear-gradient(top,#fe782b 0,#2b669a 100%);
+    background-image: -o-linear-gradient(top,#fe782b 0,#2b669a 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fe782b),to(#2b669a));
+    background-image: linear-gradient(to bottom,#fe782b 0,#2b669a 100%);
     background-repeat: repeat-x;
     border-color: #2b669a
 }
@@ -7167,10 +7170,10 @@ button.close {
 }
 
 .panel-primary > .panel-heading {
-    background-image: -webkit-linear-gradient(top,#337ab7 0,#2e6da4 100%);
-    background-image: -o-linear-gradient(top,#337ab7 0,#2e6da4 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#337ab7),to(#2e6da4));
-    background-image: linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);
+    background-image: -webkit-linear-gradient(top,#fe782b 0,#2e6da4 100%);
+    background-image: -o-linear-gradient(top,#fe782b 0,#2e6da4 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fe782b),to(#2e6da4));
+    background-image: linear-gradient(to bottom,#fe782b 0,#2e6da4 100%);
     background-repeat: repeat-x
 }
 
@@ -10886,28 +10889,29 @@ button.close {
 
 h1 {
     font-size: 28px;
-    font-family: 'IBM Plex Sans',sans-serif;
-    color: #000071
+    font-family: 'Russo One',sans-serif;
+    color: #010101
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 20px;
     background-image: url(../img/orange_square.jpg);
     background-repeat: no-repeat;
     padding-left: 40px;
     background-position: left center;
-    font-family: Lato,sans-serif;
-    font-weight: 700;
-    color: #000071
+    font-family: Russo One,sans-serif;
+    color: #010101
 }
 
 @media only screen and (min-width:0) and (max-width:719px) {
     h2 {
-        padding-left: 30px
+        padding-left: 40px
     }
 }
 
 h3 {
+     font-family: 'Montserrat' ,sans-serif;
+     font-weight: 600;
     font-size: 14px
 }
 
@@ -11074,7 +11078,7 @@ header nav.navbar ul.menu {
 }
 
 header nav.navbar ul.menu a {
-    color: #000071;
+    color: #010101;
     height: 100%;
     -webkit-transition: transform .3s ease-in-out;
     -moz-transition: transform .3s ease-in-out;
@@ -11085,7 +11089,8 @@ header nav.navbar ul.menu a {
     header nav.navbar ul.menu a li {
         float: left;
         margin-right: 30px;
-        font-family: Montserrat000
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600
     }
 
         header nav.navbar ul.menu a li > div {
@@ -11097,11 +11102,11 @@ header nav.navbar ul.menu a {
                 position: absolute;
                 top: -20px;
                 left: 40%;
-                color: #ff5302
+                color: #fe782b
             }
 
     header nav.navbar ul.menu a:hover {
-        color: #ff5302
+        color: #fe782b
     }
 
 
@@ -11125,7 +11130,7 @@ header nav.navbar div#contact {
     min-height: 80px;
     min-width: 225px;
     border-radius: 0 0 5px 5px;
-    background: #ff5302
+    background: #fe782b
 }
 
 @media (max-width:991px) {
@@ -11141,6 +11146,9 @@ header nav.navbar div#contact div {
 }
 
     header nav.navbar div#contact div a {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        font-size: 12px;
         color: #fff
     }
 
@@ -11216,13 +11224,14 @@ header nav.navbar #menu_mobile {
             font-size: 20px;
             line-height: 3;
             text-align:center;
-            font-family: Salsa,cursive;
-            color: #000071
+            font-family: 'Montserrat' ,sans-serif;
+            font-weight: 600;
+            color: #010101
        
         }
 
             header nav.navbar #menu_mobile ul a li:hover {
-                color: #ff5302
+                color: #fe782b
             }
 
             header nav.navbar #menu_mobile ul a li > div {
@@ -11233,7 +11242,7 @@ header nav.navbar #menu_mobile {
                 header nav.navbar #menu_mobile ul a li > div > div {
                     position: absolute;
                     left: -25px;
-                    color: #ff5302
+                    color: #fe782b
                 }
 
     header nav.navbar #menu_mobile div.circle {
@@ -11246,7 +11255,7 @@ header nav.navbar #menu_mobile {
     }
 
         header nav.navbar #menu_mobile div.circle.type1 {
-            background:#ff5302;
+            background:#fe782b;
             opacity:0;
             top: -25%;
             right: -75%
@@ -11493,7 +11502,7 @@ section#home_sub {
 
 section#home_sub .col-md-6.orange {
     height: 90px;
-    background: #ff5302;
+    background: #fe782b;
     color: #fff;
     overflow-wrap: anywhere;
     word-break: break-all;
@@ -11527,7 +11536,7 @@ section#home_sub .col-md-6.orange .dumb-dumb {
     width: 2000px;
     height: 100%;
     left: -2000px;
-    background: #ff5302
+    background: #fe782b
 }
 
 section#home_sub .col-md-6.text {
@@ -11567,6 +11576,8 @@ section#home_services .container {
 }
 
 section#home_services .container .col-md-6 .services .col {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
     display: table;
     float: left;
     height: 115px;
@@ -11575,6 +11586,11 @@ section#home_services .container .col-md-6 .services .col {
     margin-top: 2px;
     margin-right: 2px;
     text-align: center
+}
+section#home_projects span{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    font-weight: 600;
 }
 
     section#home_services .container .col-md-6 .services .col div {
@@ -11593,7 +11609,9 @@ section#home_services .container .col-md-6 .services .col {
         }
 
 section#home_services a {
-    color: #000
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600
 }
 
 section#home_history {
@@ -11702,6 +11720,8 @@ section#home_projects .container h2 {
 }
 
 section#home_projects .container span.experience {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     float: right;
     margin-top: 22px
 }
@@ -11763,7 +11783,7 @@ section#home_experience .container {
 }
 
 section#home_experience .container .col-md-5 {
-    border: 5px solid #ff5302
+    border: 5px solid #fe782b
 }
 
 @media only screen and (min-width:960px) {
@@ -11826,14 +11846,14 @@ section#title {
 }
 
     section#title h1 {
-        color: #000071
+        color: #010101
     }
 
     section#title .orange-separator {
         width: 55%;
         height: 10px;
         margin-left: -5%;
-        background: #ff5302
+        background: #fe782b
     }
 
 section#about-us_text .container {
@@ -11909,10 +11929,10 @@ section#projects_samples .container .col-md-4 img {
 }
 
 section#projects_samples .container .col-md-4 p.orange {
-    color: #ff5302
+    color: #fe782b
 }
 section#projects_samples .container .col-md-12 p.orange {
-    color: #ff5302
+    color: #fe782b
 }
 
 
@@ -12050,7 +12070,7 @@ section#contact-us_form .container .gray .col-md-6 p a {
 }
 
     section#contact-us_form .container .gray .col-md-6 p a.orange {
-        color: #ff5302
+        color: #fe782b
     }
 
 section#contact-us_form .container .gray .col-md-6 .form-group {
@@ -12085,7 +12105,7 @@ section#contact-us_form .container .gray .col-md-6 .form-group input {
 }
 
     section#contact-us_form .container .gray .col-md-6 .form-group input.submit {
-        background-color: #ff5302;
+        background-color: #fe782b;
         color: #fff
     }
 
@@ -12204,7 +12224,7 @@ footer .container .row div.orange {
     height: 60px;
     margin-top: -30px;
     float: right;
-    background: #ff5302
+    background: #fe782b
 }
 
 @media only screen and (min-width:0) and (max-width:719px) {
@@ -12231,11 +12251,13 @@ footer .container .row figure img {
 }
 
 footer .container .row a {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
     color: #000
 }
 
     footer .container .row a.naranja {
-        color: #ff5302
+        color: #fe782b
     }
 
 #historia {
@@ -12255,8 +12277,8 @@ footer .container .row a {
 p {
 
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
    
 }
 #sobreNosotros {

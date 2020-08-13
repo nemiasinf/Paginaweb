@@ -103,6 +103,8 @@
 
   <!-- FONTS AND STUFF -->
   <link href="https://fonts.googleapis.com/css?family=Sigmar+One|IBM+Plex+Sans:700|Lato:400,700|Salsa&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
   <!-- JS AND STUFF-->
   <!--
@@ -183,7 +185,7 @@
 
 
 
-            <a href="../COVID.php" title="COVID19"><li>
+            <a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public" title="COVID19"><li>
               <div id="covid">
                 <?php echo ($current_page == 'COVID' ? '<div>▼</div>': '') ?>
                 PREVENCIÓN <br>

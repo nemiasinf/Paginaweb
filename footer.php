@@ -35,11 +35,12 @@
  Calle 57C Número 648 Fracc. Las Américas, Mérida, Yucatán, México CP 97302<br><br>
 				<div>
 				  Horarios de atención:<br>
-				  Lunes a Viernes 8:30 am - 5:00 pm<br>
-				  Sábado 8:00 am - 1:00 pm<br><br><br>
+				  Lunes a Viernes 9:00 am - 5:00 pm<br>
+				  Sábado 9:00 am - 1:00 pm<br><br><br>
 			  </div>
               <a href="mailto:contacto@ccitecnologia.com.mx" title="Email: contacto@ccitecnologia.com.mx">contacto@ccitecnologia.com.mx</a>
-              <!--a class="naranja" href="tel:9987043288" title="Llamar a: 998 704 32 88">998 704 32 88</a-->
+              <br>
+              <a class="naranja" href="tel:9984988094" title="Llamar a: 998 498 8094">998 498 8094</a>
             </address>
           </div>
         </div>

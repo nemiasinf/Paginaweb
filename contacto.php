@@ -37,12 +37,12 @@
             <b>Encuentranos en:</b> Calle 57C Número 648 Fracc. Las Américas, Mérida, Yucatán, México CP 97302
           </p>
           <br>
-          <p><a href="tel:9983616791" title="contactanos" class="orange">998 361 6791</a></p>
+          <p><a href="tel:9984988094" title="contactanos" class="orange">998 498 8094</a></p>
           <br>
 			<div><h2><br><br>
 				  Horarios de atención:<br><br>
-				  Lunes a Viernes 8:30 am - 5:00 pm<br>
-				  Sábado 8:00 am - 1:00 pm<br><br><br>
+				  Lunes a Viernes 9:00 am - 5:00 pm<br>
+				  Sábado 9:00 am - 1:00 pm<br><br><br>
 				</h2></div>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-6 right  wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
