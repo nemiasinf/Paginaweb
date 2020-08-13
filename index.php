@@ -11,7 +11,7 @@
   <section id="home_slide" class="wow fadeIn" data-wow-duration="4s" data-wow-delay="0.4s">
     <div class="container">
       <div class="slider">
-        <img class="slide w3-animate-right" src="img/slide1.jpg">
+       <img class="slide w3-animate-right" src="img/slide1.jpg">
          <img class="slide1 w3-animate-out" src="img/slide3.jpg">
        
 
@@ -23,14 +23,14 @@
            <img class="slide1 w3-animate-out" src="img/slide4.jpg">
       
          
-        <img class="slide w3-animate-right" src="img/slide3.jpg">
+       <a href="google.com"> <img class="slide w3-animate-right" src="img/slide3.jpg"></a>
           <img class="slide1 w3-animate-out" src="img/slide5.jpg">
        
 
       </div>
      
 
-<script>
+<!--script>
 var myIndex = 0;
 carousel();
 
@@ -60,13 +60,9 @@ function carousel1() {
   y[myIndex1-1].style.display = "block";  
   setTimeout(carousel1, 4000); // Change image every 2 seconds
 }
-</script>
+</script-->
 
 
-
-<script>
-
-</script>
 
 
 

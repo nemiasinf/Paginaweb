@@ -10958,7 +10958,7 @@ section {
 .slide {
 position: absolute;
  
-    z-index: -1;
+    z-index: 0;
     width: 100%;
     height: 150%;
 
@@ -10977,7 +10977,7 @@ background-position: center;
 position: absolute;
  width: 100%;
  height: 300px;
-    z-index: -1;
+    z-index: 0;
   
   
     }
@@ -11461,14 +11461,18 @@ section#home_slide .container div.text {
 
 section#home_slide .container div.title {
     position: relative;
-    padding-top: 40px;
-    margin-top: 50px;
-    margin-top: 175px;
-    text-shadow: 2px 2px #000
+    height: 30%;
+    width: 35%;
+    margin-top: 215px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-shadow: 2px 2px #000;
 }
 
 @media only screen and (min-width:0) and (max-width:719px) {
     section#home_slide .container div.title {
+         margin-right: 0px;
+    margin-left: 0px;
         position: absolute;
         margin-top: 0;
         bottom: 100px
@@ -11476,12 +11480,16 @@ section#home_slide .container div.title {
 }
 
 section#home_slide .container div.title h1 {
+     margin-right: 0px;
+    margin-left: 0px;
     position: relative;
     margin-bottom: 5px;
     color: #fff
 }
 
 section#home_slide .container div.title h2 {
+     margin-right: 0px;
+    margin-left: 0px;
     position: relative;
     margin-top: 5px;
     background-image: initial;
