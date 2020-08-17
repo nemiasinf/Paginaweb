@@ -45,12 +45,12 @@
   <section id="services_list">
     <div class="container">
       <div class="row" id="Electrificacion">
-        <div class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
+        <div class="col-md-8  images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="left">
             <img id="serv"  src="../img/elec.png">
           </div>
         </div>
-        <div class="col-md-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
+        <div class="col-md-10 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <h2>Electrificación:</h2>
           <p>
             <b id="titulo">Diseño, Suministro, Instalación y Mantenimiento de Redes Eléctricas en general.
@@ -88,11 +88,7 @@
 
       <div class="row" id="Hidrosanitario">
         
-       <div  class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
-        
-            <img id="serv" src="../img/hidro.png">
-        
-        </div>
+       
         <div  class="col-md-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
            <h2>Hidrosanitario:</h2>
           <p>
@@ -105,6 +101,11 @@
 •Construcción de líneas de acero para plantas de tratamiento y tanques de abastecimiento.<br>
 •Amplia experiencia en redes principales de agua potable, drenaje sanitario y pluvial.<br>
           </p>
+        </div>
+        <div  class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
+        
+            <img id="serv" src="../img/hidro.png">
+        
         </div>
       </div>
       <hr>
@@ -154,9 +155,7 @@
       <div class="row" id="Edificios-Inteligentes">
         
       <div class="col-md-4  col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
-          <div class="right">
-            <img id="serv"  src="../img/domo.png">
-          </div>
+          
         </div>
         <div class="col-md-6 col-xs-6  wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
           <h2>Edificios<br>Inteligentes:</h2>
@@ -176,6 +175,9 @@ del edificio.</b>
             •Aire acondicionado
           </p>
         </div>
+        <div class="right">
+            <img id="serv"  src="../img/domo.png">
+          </div>
       </div>
      
       <hr>
@@ -229,9 +231,7 @@ del edificio.</b>
       <div class="row" id="Telematica">
       
         <div class="col-md-4 col-xs-10 images wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
-          <div class="right">
-           <img id="serv"  src="../img/tele.png">
-          </div>
+         
           
         </div>
         <div class="col-md-6 col-xs-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="200">
@@ -245,9 +245,26 @@ del edificio.</b>
 
           </p>
         </div>
+         <div class="right">
+           <img id="serv"  src="../img/tele.png">
+          </div>
       </div>
     </div>
+
   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section id="title">
     <div class="container">

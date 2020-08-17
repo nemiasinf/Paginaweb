@@ -328,33 +328,33 @@ function carousel1() {
         <div class="col-md-3 col-sm-3 col-xs-6 left">
           <figure>
             <!--a href="https://soyhorizonte.com" data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text" data-gallery="example-gallery" data-type="url"-->
-            <a href="/projects.php" title="projects">
+            
               <img class="lazy" data-src="img/casas_javer_alt.jpg" alt="proyecto">
-            </a>
+        
           </figure>
           <span>Fraccionamiento Kuzamil, electrificación de 800 casas, Cancun Quintana Roo.</span>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6 middle">
           <figure>
-            <a href="/projects.php" title="projects">
+            
               <img class="lazy" data-src="img/allure_ocean_front_luxury_condos_alt.jpeg" alt="proyecto">
-            </a>
+           
           </figure>
           <span>Instalación eléctrica e hidrosanitaria de 52 deptos ubicada en Puerto Cancún Quintana Roo.</span>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6 middle">
           <figure>
-            <a href="/projects.php" title="projects">
+           
               <img class="lazy" data-src="img/alumbrado_benito_juarez_alt.jpg" alt="proyecto">
-            </a>
+            
           </figure>
           <span>3Km de Alumbrado público en la avenida López Portillo.</span>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-6 right">
           <figure>
-            <a href="/projects.php" title="projects">
+        
               <img class="lazy" data-src="img/consorcio_ara_alt.jpg" alt="proyecto">
-            </a>
+           
           </figure>
           <span>Misión de las flores, electrificación y alumbrado público de 1000 casas en Playa del Carmen Quintana Roo.</span>
         </div>
